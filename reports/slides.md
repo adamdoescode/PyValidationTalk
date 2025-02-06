@@ -113,6 +113,18 @@ do_more_stuff_to_the_data(data)
 
 ---
 
+# What you should remember
+
+- Validate your tabular data!!
+- And do it *before* you do anything else.
+- You should use tools that do validation (and not make your own).
+- There are good tools out there, some are python libraries, but you could also look into:
+  - validating with `SQL` and a database.
+  - using the `intake` python library: https://github.com/intake/intake
+  - using a low-code solution.
+
+---
+
 # Thankyou!!
 
 ## Special thanks to...
