@@ -16,6 +16,9 @@ h2 {
     color: rgb(45, 97, 24);
     text-align: center;
 }
+h3 {
+    text-align: center;
+}
 </style>
 
 <!-- paginate: skip -->
@@ -85,8 +88,8 @@ do_more_stuff_to_the_data(data)
 ## Check your assumptions before you process your data!
 
 1. Validate your data
-2. Fix invalid data
-3. Only then; run your data through your pipeline
+2. Handle the invalid data
+3. Finally; run your data through your pipeline
 - This allows for *seperation of concerns*:
   - We can validate and munge our data in one place
   - analyse it in a different place
@@ -95,4 +98,10 @@ do_more_stuff_to_the_data(data)
 ---
 
 ## Jump to demo here?
-Yeah, why not? 🤷‍♀️
+
+### Yeah, why not? 🤷‍♀️
+
+- Ad-hoc solutions
+- Pandera
+- Pola.rs
+- ...
