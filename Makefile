@@ -17,29 +17,6 @@ requirements:
 	conda env update --name $(PROJECT_NAME) --file environment.yml --prune
 	
 
-
-
-## Delete all compiled Python files
-.PHONY: clean
-clean:
-	find . -type f -name "*.py[co]" -delete
-	find . -type d -name "__pycache__" -delete
-
-## Lint using flake8 and black (use `make format` to do formatting)
-.PHONY: lint
-lint:
-	flake8 PyVal
-	isort --check --diff --profile black PyVal
-	black --check --config pyproject.toml PyVal
-
-## Format source code with black
-.PHONY: format
-format:
-	black --config pyproject.toml PyVal
-
-
-
-
 ## Set up python interpreter environment
 .PHONY: create_environment
 create_environment:
@@ -49,11 +26,17 @@ create_environment:
 	
 
 
+## Delete all compiled Python files
+.PHONY: clean
+clean:
+	find . -type f -name "*.py[co]" -delete
+	find . -type d -name "__pycache__" -delete
 
-#################################################################################
-# PROJECT RULES                                                                 #
-#################################################################################
-
+## Format source code with black
+# TODO setup for ruff instead
+.PHONY: format
+format:
+	black --config pyproject.toml PyVal
 
 
 #################################################################################
