@@ -97,11 +97,26 @@ do_more_stuff_to_the_data(data)
 
 ---
 
-## Jump to demo here?
+# Seeing the light: Strategies and Libraries
 
-### Yeah, why not? 🤷‍♀️
+- Fear not young data tradie! We can stand on the shoulders of giants ❤️
+- Other people have written tools to help us:
+  - Pandera validation library
+  - pola.rs lazy tables
+  - `pd.DataFrame.astype()` and `pd.to_datetime()`.
+  - Pydantic
+  - python *schema*
 
-- Ad-hoc solutions
-- Pandera
-- Pola.rs
-- ...
+---
+
+## Jump to demo here 😎
+
+---
+
+# Thankyou!!
+
+## Special thanks to...
+
+- Charles Turner for ongoing discussions about this.
+- Sabrina Seaver and Sixteen Armstrong for putting my schemas to the test.
+- Kale Miller for suggestions in the discord and the term Data Tradie<sup>TM</sup>.
