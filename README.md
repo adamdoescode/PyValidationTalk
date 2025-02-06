@@ -1,4 +1,4 @@
-# # pd.read_csv is NOT all you need: DataFrame validation in Python
+# pd.read_csv is NOT all you need: DataFrame validation in Python
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -8,6 +8,14 @@ Notes and code for my Python DataFrame Validation talk.
 
 ## Outline
 
+It is a little tricky thinking about how to go about the order of attack...
+
+Goals:
+- Convey importance of the problem
+- Indicate that this often a *design* problem:
+  - you need to have strong assumptions about your data before you write your code
+  - otherwise your code becomes unmaintainable
+- 
 
 
 ## Project Organization
