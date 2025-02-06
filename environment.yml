@@ -3,8 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - black
-  - flake8
+  - ruff
   - isort
   - pip
   - ipython
@@ -13,7 +12,9 @@ dependencies:
   - notebook
   - numpy
   - pandas
-  - scikit-learn
+  - pandera
+  - polars
+  - schema
   - pip:
     - python-dotenv
     - -e .
