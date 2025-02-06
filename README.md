@@ -4,7 +4,11 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Notes and code for my Python DataFrame Validation talk
+Notes and code for my Python DataFrame Validation talk.
+
+## Outline
+
+
 
 ## Project Organization
 
