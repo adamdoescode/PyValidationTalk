@@ -6,6 +6,7 @@ dependencies:
   - pandoc
   - ruff
   - isort
+  - nbdime
   - pip
   - ipython
   - jupyterlab
