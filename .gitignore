@@ -1,5 +1,5 @@
-# Data
-/data/
+# Data - no need to hide this as we have only two tiny csv files
+# /data/
 
 # Mac OS-specific storage files
 .DS_Store
