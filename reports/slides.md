@@ -22,11 +22,12 @@ h3 {
 </style>
 
 <!-- paginate: skip -->
+<!-- _class: lead -->
 
 # `pd.read_csv` is NOT all you need:
 ## DataFrame validation in Python
 
-Adam Graham, Data Scientist, ETA
+### Adam Graham, Data Scientist, ETA
 
 ---
 <!-- paginate: true -->

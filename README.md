@@ -1,21 +1,38 @@
 # pd.read_csv is NOT all you need: DataFrame validation in Python
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 Notes and code for my Python DataFrame Validation talk.
 
 ## Outline
 
-It is a little tricky thinking about how to go about the order of attack...
+This talk aims to describe:
+- That you need to be dealing with your messy inconsistent data
+- You should use data validation to handle your data
+- And validation should occur before you do any processing + analysis
+- We focus on validation of *dataframes* i.e. table objects in `Python`
+- We present several approaches of varying quality and effectiveness
 
-Goals:
-- Convey importance of the problem
-- Indicate that this often a *design* problem:
-  - you need to have strong assumptions about your data before you write your code
-  - otherwise your code becomes unmaintainable
-- 
+The talk is composed of two parts:
+- A slide deck of introductions and concepts (see: `reports/slides.md`)
+- And a demonstration notebook of various strategies (see: `notebooks/demo.ipynb`)
+
+## Getting Started
+
+To follow along with this on your own machine:
+1. `git clone` the entire repo:
+```
+git clone https://github.com/adamdoescode/PyValidationTalk
+```
+2. make the conda environment from the `environment.yml`:
+```
+cd PyValidationTalk/
+make create_environment
+```
+3. activate the environment:
+```
+conda activate PyValidationTalk
+```
+
+You should now be able to run the demo.ipynb notebook!
 
 
 ## Project Organization
