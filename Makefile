@@ -32,11 +32,6 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 
-## Format source code with black
-# TODO setup for ruff instead
-.PHONY: format
-format:
-	black --config pyproject.toml PyVal
 
 
 #################################################################################

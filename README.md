@@ -17,6 +17,11 @@ The talk is composed of two parts:
 
 ## Getting Started
 
+Requirements for install:
+- a unix command line (untested on windows powershell but doable with some expertise)
+- [make](https://www.gnu.org/software/make/manual/make.html)
+- [miniconda](https://docs.anaconda.com/miniconda/) (or similar)
+
 To follow along with this on your own machine:
 1. `git clone` the entire repo:
 ```
